@@ -1,0 +1,3 @@
+This repository contains the pie chart with Chart.js, showing the distribution of Github remains according to the type of license, for the 5 most used licenses.
+The dataset is in BigQuery : bigquery-public-data.github_repos. The backend is done with Flask.
+You should create an account in Google Cloud Platform then create a service account. Then, from IAM and administration you should add a key to your service account. It will return a JSON file, copy and paste its values in key.json file in back folder. 
