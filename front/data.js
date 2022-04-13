@@ -8,7 +8,6 @@ $.ajax({
     async: false
   });
 
-console.log("data:", results)
 const data = {
     labels: results.labels,
     datasets: [
